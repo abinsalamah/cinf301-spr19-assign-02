@@ -1,0 +1,151 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css');
+html,
+body {
+  height: 100%
+  alig: center;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("../img/background.dms");
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	background-color: #464646;
+}
+
+.margin {
+	width:300px;
+  margin: auto;
+}
+
+.click{
+	all: unset;
+}
+
+.container {
+	color: #F2F2F2;
+}
+
+.home-newsletter {
+padding: 10px ;
+
+/*background: #575757;*/
+}
+.col-md-2 col-md-offset-5{
+	color : red;
+}
+
+
+.centring {
+margin: 0 auto;
+  max-width: 700px;
+  height: 100px;
+border : solid 2px #419E42;
+  border-radius: 3px;
+}
+
+/* css is from https://bootsnipp.com/snippets/eoXRa */
+.home-newsletter .single {
+width: 300px;
+ height: 100px;
+ display: inline-block;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; 
+}
+.home-newsletter .single h2 {
+font-size: 22px;
+color: white;
+text-transform: uppercase;
+margin-bottom: 40px; }
+.home-newsletter .single .form-control {
+height: 50px;
+background: rgba(255, 255, 255, 0.6);
+border-color: #419E42;
+border-radius: 20px 0 0 20px; }
+.home-newsletter .single .form-control:focus {
+box-shadow: none;
+border-color: #419E42;
+ }
+.home-newsletter .single .btn {
+min-height: 50px; 
+border-radius: 0 20px 20px 0;
+background: #419E42;
+/*color: #fff;*/
+}
+
+.box {
+   font-family: futura;
+      font-style: italic;
+      margin: 0 auto;
+      text-align: center;
+      color:#313131;
+      /*font-size:45px;*/
+      font-weight: bold;
+/*      position: absolute;*/
+      -webkit-animation:colorchange 0.5s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+
+.biggerr {
+	font-size: 25px
+	text-align: center;
+}
